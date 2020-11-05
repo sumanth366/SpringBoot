@@ -17,7 +17,7 @@ public class LoginController {
 	AlienRepo repo;
 	
 	
-	@GetMapping("/addAlien")
+	@RequestMapping("/addAlien")
 	public ModelAndView addAlien(Alien a)
 	{
 		ModelAndView mv= new ModelAndView("home.jsp");

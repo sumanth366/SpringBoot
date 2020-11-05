@@ -8,12 +8,7 @@
 </head>
 <body>
 
-<form action="addAlien" method="get">
-Enter Id: <input type="text" name="id"><br>
-Enter Name: <input type="text" name="name"><br>
-Enter Tech: <input type="text" name="tech"><br>
-<input type="submit">
-</form>
+Welcome ${a}
 
 </body>
 </html>
